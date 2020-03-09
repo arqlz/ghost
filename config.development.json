@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:4000",
+  "server": {
+    "port": 4000,
+    "host": "localhost"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "C:\\Users\\arqle\\Desktop\\Work\\ghostbita\\ghost_ibm\\ghost.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "C:\\Users\\arqle\\Desktop\\Work\\ghostbita\\ghost_ibm\\content"
+  }
+}
